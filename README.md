@@ -1,4 +1,4 @@
-### Hi there, I'm Sasanka Nirmal Pathirage! 👋
+# Hi there, I'm Sasanka Nirmal Pathirage! 👋
 
 🚀 **Software Engineer | Full-Stack Developer | Tech Enthusiast**
 
