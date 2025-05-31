@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=28&pause=800&color=00FF99¢er=true&vCenter=true&width=500&lines=Hello+World!+I'm+Sasa+Nirmal!;Passionate+Developer+%26+Linux+Enthusiast" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=28&pause=800&color=00FF99¢er=true&vCenter=true&width=500&lines=Hello+World!+I'm+Sasanka+Nirmal!;Passionate+Developer+%26+Linux+Enthusiast" alt="Typing SVG" />
 </p>
 
 <p align="center">
@@ -17,48 +17,48 @@
 
 ---
 
-## 👨‍💻 About Me
-I'm **Sasa Nirmal**, a **software developer** and **Linux enthusiast** from [Your City, Sri Lanka], passionate about crafting efficient solutions and mastering the art of Bash scripting. I love diving into the command line, automating tasks, and exploring open-source technologies. My mission is to build tools that simplify lives and contribute to the global developer community.
+## **👨‍💻 About Me**
+I'm **Sasanka Nirmal**, a **software developer** and **Linux enthusiast** from [Your City, Sri Lanka], passionate about crafting efficient solutions and mastering the art of Bash scripting. I thrive on exploring the command line, automating workflows, and contributing to open-source projects. My mission is to build tools that make life easier and inspire the global tech community.
 
 - 📍 **Location**: [Your City, Sri Lanka]  
 - 📧 **Email**: [your.email@example.com]  
 - 💻 **Portfolio/Blog**: [Your Portfolio or Blog Link]  
 - 🎯 **Goal**: Automate the world, one script at a time!  
-- ⚡ **Fun Fact**: I once wrote a Bash script to remind me to drink water while debugging at 2 AM!  
+- ⚡ **Fun Fact**: I once wrote a Bash script to remind me to take breaks during late-night coding sessions!  
 
 ---
 
-## 🛠️ Skills & Tech Stack
-Here’s my toolbox, with a spotlight on my Linux journey:
+## **🛠️ Skills & Tech Stack**
+My toolbox, with a focus on my Linux journey:
 
 | **Category**         | **Technologies**                                                                 |
 |-----------------------|---------------------------------------------------------------------------------|
-| **Languages**         | ![Python](https://img.shields.io/badge/-Python-3776AB?logo=python&logoColor=white&style=flat-square) ![Bash](https://img.shields.io/badge/-Bash-4EAA25?logo=gnu-bash&logoColor=white&style=flat-square) ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?logo=javascript&logoColor=black&style=flat-square) |
+| **Languages**         | ![Python](https://img.shields.io/badge/-Python-3776AB?logo=python&logoColor=white&style=flat-square) ![Bash](https://img.shields.io/badge/-Bash-4EAA25?logo=gnu-bash&logoColor=white&style=flat-square) ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?logo=javascript&logoColor=black&style=flat-square) ![Java](https://img.shields.io/badge/-Java-007396?logo=java&logoColor=white&style=flat-square) |
 | **Frameworks/Tools**  | ![Node.js](https://img.shields.io/badge/-Node.js-339933?logo=node.js&logoColor=white&style=flat-square) ![Django](https://img.shields.io/badge/-Django-092E20?logo=django&logoColor=white&style=flat-square) ![Docker](https://img.shields.io/badge/-Docker-2496ED?logo=docker&logoColor=white&style=flat-square) |
 | **DevOps**            | ![Linux](https://img.shields.io/badge/-Linux-FCC624?logo=linux&logoColor=black&style=flat-square) ![Git](https://img.shields.io/badge/-Git-F05032?logo=git&logoColor=white&style=flat-square) ![Kubernetes](https://img.shields.io/badge/-Kubernetes-326CE5?logo=kubernetes&logoColor=white&style=flat-square) |
 | **Databases**         | ![MongoDB](https://img.shields.io/badge/-MongoDB-47A248?logo=mongodb&logoColor=white&style=flat-square) ![MySQL](https://img.shields.io/badge/-MySQL-4479A1?logo=mysql&logoColor=white&style=flat-square) |
 
-*Pro Tip*: I’m currently sharpening my **Bash scripting** skills to automate workflows and conquer the terminal! 🐧
+*Pro Tip*: I’m honing my **Bash scripting** skills to streamline DevOps workflows and master the terminal! 🐧
 
 ---
 
-## 🐧 My Linux & Bash Scripting Journey
-I’m diving deep into **Linux** and **Bash scripting**, learning to automate tasks, manage servers, and streamline workflows. Recent wins include:
+## **🐧 My Linux & Bash Scripting Journey**
+I’m immersed in **Linux** and **Bash scripting**, automating tasks and managing systems like a pro. Recent achievements:
 
-- 📜 Writing scripts to automate file backups and system monitoring.  
-- 🖥️ Mastering commands like `ls -l`, `grep`, and `awk` for efficient system navigation.  
-- 🚀 Exploring DevOps tools like Docker and Kubernetes on Linux environments.  
+- 📜 Created scripts for file backups, log analysis, and system monitoring.  
+- 🖥️ Mastered commands like `ls -l`, `grep`, `sed`, and `awk` for efficient system navigation.  
+- 🚀 Experimenting with Docker and Kubernetes in Linux environments for scalable deployments.  
 
-*Check out my [Bash Scripts Repo](https://github.com/SasaNirmal/[bash-repo-name]) for my latest scripts!*
+*Check out my [Bash Scripts Repo](https://github.com/SasaNirmal/[bash-repo-name]) for my latest automation tools!*
 
 ---
 
-## 🌟 Featured Projects
-Here are some projects I’m proud of:
+## **🌟 Featured Projects**
+My proudest creations:
 
 - **[LibrarySystem](https://github.com/SasaNirmal/LibrarySystem)**  
-  A robust library management system to handle books, users, and transactions.  
-  🛠️ **Tech Stack**: [e.g., Python, Django, MySQL]  
+  A robust library management system for books, users, and transactions.  
+  🛠️ **Tech Stack**: Python, Django, MySQL  
   ⭐ **Stars**: ![GitHub stars](https://img.shields.io/github/stars/SasaNirmal/LibrarySystem?style=social)  
   🔗 **Live Demo**: [Link, if available]
 
@@ -68,18 +68,18 @@ Here are some projects I’m proud of:
   ⭐ **Stars**: ![GitHub stars](https://img.shields.io/github/stars/SasaNirmal/[bash-repo-name]?style=social)
 
 - **[Project Name 3](https://github.com/SasaNirmal/[repo-name])**  
-  [Description, e.g., "A web app for task tracking with real-time updates."]  
-  🛠️ **Tech Stack**: [e.g., React, Node.js, MongoDB]  
+  [Description, e.g., "A task-tracking web app with real-time updates."]  
+  🛠️ **Tech Stack**: React, Node.js, MongoDB  
   ⭐ **Stars**: ![GitHub stars](https://img.shields.io/github/stars/SasaNirmal/[repo-name]?style=social)
 
-*Replace placeholders with your actual repos. Pin your best projects on GitHub for visibility!*
+*Replace placeholders with your actual repos. Pin your best projects on GitHub!*
 
 ---
 
-## 🚀 Current Focus
+## **🚀 Current Focus**
 - 🔍 **Learning**: Advanced Bash scripting and Linux system administration.  
 - 🛠️ **Building**: A Bash script suite for DevOps automation.  
-- 🌍 **Contributing**: To open-source Linux projects like [e.g., “a CLI tool or a community repo”].  
+- 🌍 **Contributing**: To open-source Linux projects like [e.g., “a CLI tool or community repo”].  
 
 *Progress*:  
 ![Bash Progress](https://progress-bar.dev/75/?title=Bash+Scripting&width=200)  
@@ -87,9 +87,9 @@ Here are some projects I’m proud of:
 
 ---
 
-## 📊 GitHub Stats
+## **📊 GitHub Stats**
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=SasaNirmal&show_icons=true&theme=midnight-purple&hide_border=true" alt="Sasa's GitHub Stats" width="48%" />
+  <img src="https://github-readme-stats.vercel.app/api?username=SasaNirmal&show_icons=true&theme=midnight-purple&hide_border=true" alt="Sasanka's GitHub Stats" width="48%" />
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=SasaNirmal&layout=compact&theme=midnight-purple&hide_border=true" alt="Top Languages" width="48%" />
 </p>
 <p align="center">
@@ -101,7 +101,7 @@ Here are some projects I’m proud of:
 
 ---
 
-## 🌍 Open-Source Contributions
+## **🌍 Open-Source Contributions**
 - 🧩 Contributed to [e.g., “a Linux CLI tool by adding features or fixing bugs”].  
 - 📦 Maintainer of my [Bash Automation Toolkit](https://github.com/SasaNirmal/[bash-repo-name]).  
 - 💬 Active in GitHub Discussions and [e.g., “Reddit’s r/bash community”].  
@@ -110,21 +110,21 @@ Here are some projects I’m proud of:
 
 ---
 
-## 📝 Blog & Resources
+## **📝 Blog & Resources**
 - 📖 **Blog**: Sharing Linux tips and Bash scripting tutorials at [Your Blog Link].  
 - 💼 **Portfolio**: Explore my projects at [Your Portfolio Link].  
-- 📚 **Resources**: I recommend [Linux Journey](https://linuxjourney.com/) and [The Bash Guide](https://mywiki.wooledge.org/BashGuide) for learning Linux and Bash.
+- 📚 **Resources**: I recommend [Linux Journey](https://linuxjourney.com/) and [The Bash Guide](https://mywiki.wooledge.org/BashGuide) for Linux and Bash learners.
 
 ---
 
-## 🤝 Let’s Connect!
+## **🤝 Let’s Connect!**
 <p align="center">
   <a href="mailto:[your.email@example.com]"><img src="https://img.shields.io/badge/-Email-D14836?logo=gmail&logoColor=white&style=for-the-badge" alt="Email"></a>
   <a href="https://linkedin.com/in/[your-linkedin]"><img src="https://img.shields.io/badge/-LinkedIn-0A66C2?logo=linkedin&logoColor=white&style=for-the-badge" alt="LinkedIn"></a>
   <a href="https://x.com/[your-x-handle]"><img src="https://img.shields.io/badge/-X-000000?logo=x&logoColor=white&style=for-the-badge" alt="X"></a>
 </p>
 
-🌟 **Let’s build something awesome!** I’m excited to collaborate on Linux projects, DevOps tools, or anything tech-related. Fork my repos, submit a PR, or drop me a message!
+🌟 **Let’s build something awesome!** I’m excited to collaborate on Linux projects, DevOps tools, or any tech venture. Fork my repos, submit a PR, or drop me a message!
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=SasaNirmal&color=00FF99&style=flat-square" alt="Profile Views" />
