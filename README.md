@@ -1,44 +1,71 @@
-# Hi there, I'm Sasanka Nirmal Pathirage! 👋
-
-🚀 **Software Engineer | Full-Stack Developer | Tech Enthusiast**
-
 ---
+👨‍💻 About Me
+I'm Sasa Nirmal, a software developer and Linux enthusiast from [Your City, Sri Lanka], passionate about crafting efficient solutions and mastering the art of Bash scripting. I love diving into the command line, automating tasks, and exploring open-source technologies. My mission is to build tools that simplify lives and contribute to the global developer community.
 
-### 💡 About Me
-- 🎓 Passionate about Software Engineering & Web Development
-- 💻 Skilled in **React.js, Node.js, Python, Flask, MongoDB, and Flutter**
-- 🌱 Currently learning **Flask & Advanced Backend Development**
-- 📈 Building **data visualization dashboards & real-time applications**
-- 💼 Aspiring entrepreneur, working on my brand **Valorin**
+📍 Location: [Your City, Sri Lanka]
+📧 Email: [your.email@example.com]
+💻 Portfolio/Blog: [Your Portfolio or Blog Link]
+🎯 Goal: Automate the world, one script at a time!
+⚡ Fun Fact: I once wrote a Bash script to remind me to drink water while debugging at 2 AM!
 
+
+🛠️ Skills & Tech Stack
+Here’s my toolbox, with a spotlight on my Linux journey:
+
+CategoryTechnologiesLanguagesFrameworks/ToolsDevOpsDatabases
+
+
+Pro Tip: I’m currently sharpening my Bash scripting skills to automate workflows and conquer the terminal! 🐧
+
+🐧 My Linux & Bash Scripting Journey
+I’m diving deep into Linux and Bash scripting, learning to automate tasks, manage servers, and streamline workflows. Recent wins include:
+
+📜 Writing scripts to automate file backups and system monitoring.
+🖥️ Mastering commands like ls -l, grep, and awk for efficient system navigation.
+🚀 Exploring DevOps tools like Docker and Kubernetes on Linux environments.
+
+Check out my Bash Scripts Repo for my latest scripts!
+
+🌟 Featured Projects
+Here are some projects I’m proud of:
+
+LibrarySystemA robust library management system to handle books, users, and transactions.🛠️ Tech Stack: [e.g., Python, Django, MySQL]⭐ Stars:
+🔗 Live Demo: [Link, if available]
+
+Bash Automation ToolkitA collection of Bash scripts for automating file management and system tasks.🛠️ Tech Stack: Bash, Linux⭐ Stars:
+
+
+Project Name 3[Description, e.g., "A web app for task tracking with real-time updates."]🛠️ Tech Stack: [e.g., React, Node.js, MongoDB]⭐ Stars:
+
+
+
+Replace placeholders with your actual repos. Pin your best projects on GitHub for visibility!
+
+🚀 Current Focus
+
+🔍 Learning: Advanced Bash scripting and Linux system administration.
+🛠️ Building: A Bash script suite for DevOps automation.
+🌍 Contributing: To open-source Linux projects like [e.g., “a CLI tool or a community repo”].
+
+Progress:
 ---
-
-### 🛠️ Tech Stack
-
-**Frontend:** ![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black) ![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
-
-**Backend:** ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white) ![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white) ![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
-
-**Database:** ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
-
-**Tools & Others:** ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white) ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-
+📊 GitHub Stats
 ---
+🌍 Open-Source Contributions
 
-### 📌 Featured Projects
+🧩 Contributed to [e.g., “a Linux CLI tool by adding features or fixing bugs”].
+📦 Maintainer of my Bash Automation Toolkit.
+💬 Active in GitHub Discussions and [e.g., “Reddit’s r/bash community”].
 
-🚀 **[Food Order System](https://github.com/SasaNirmal/Food-order-system)** – A full-stack food ordering application
+Add your contributions or check your GitHub activity for details!
 
-📊 **[Student Performance Analysis](https://github.com/SasaNirmal/Student-Performance-Analysis-)** – Data-driven insights into student performance
+📝 Blog & Resources
 
-🌍 **[Restaurant Website](https://github.com/SasaNirmal/Resturent-website)** – A modern and responsive restaurant website
+📖 Blog: Sharing Linux tips and Bash scripting tutorials at [Your Blog Link].
+💼 Portfolio: Explore my projects at [Your Portfolio Link].
+📚 Resources: I recommend Linux Journey and The Bash Guide for learning Linux and Bash.
 
-🔹 _More projects on my [GitHub Repositories](https://github.com/SasaNirmal?tab=repositories)!_
 
----
-
-### 📫 Connect With Me
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sasankanirmal) [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/SasaNirmal)
-
-💬 **Let's collaborate on exciting projects!** 🚀
+🤝 Let’s Connect!
+🌟 Let’s build something awesome! I’m excited to collaborate on Linux projects, DevOps tools, or anything tech-related. Fork my repos, submit a PR, or drop me a message!
+Thanks for visiting! Let’s conquer the terminal together! 🐧🚀
