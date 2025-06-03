@@ -10,9 +10,8 @@
 </p>
 
 <p align="center">
-  <a href="https://linkedin.com/in/[your-linkedin]"><img src="https://img.shields.io/badge/-LinkedIn-0A66C2?logo=linkedin&logoColor=white&style=for-the-badge" alt="LinkedIn"></a>
-  <a href="https://x.com/[your-x-handle]"><img src="https://img.shields.io/badge/-X-000000?logo=x&logoColor=white&style=for-the-badge" alt="X"></a>
-  <a href="[your-portfolio]"><img src="https://img.shields.io/badge/-Portfolio-FF6F61?logo=google-chrome&logoColor=white&style=for-the-badge" alt="Portfolio"></a>
+  <a href="https://www.linkedin.com/in/sasanirmal?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><img src="https://img.shields.io/badge/-LinkedIn-0A66C2?logo=linkedin&logoColor=white&style=for-the-badge" alt="LinkedIn"></a>
+  <a href="https://x.com/SasankaXbob?t=okc0AX4WSf_4EbEToHIkPA&s=09"><img src="https://img.shields.io/badge/-X-000000?logo=x&logoColor=white&style=for-the-badge" alt="X"></a>
 </p>
 
 ---
@@ -20,8 +19,8 @@
 ## **👨‍💻 About Me**
 I'm **Sasanka Nirmal**, a **software developer** and **Linux enthusiast** from [Your City, Sri Lanka], passionate about crafting efficient solutions and mastering the art of Bash scripting. I thrive on exploring the command line, automating workflows, and contributing to open-source projects. My mission is to build tools that make life easier and inspire the global tech community.
 
-- 📍 **Location**: [Your City, Sri Lanka]  
-- 📧 **Email**: [your.email@example.com]  
+- 📍 **Location**: [Wellawaya, Sri Lanka]  
+- 📧 **Email**: [sasanpathirage@gmail.com]  
 - 💻 **Portfolio/Blog**: [Your Portfolio or Blog Link]  
 - 🎯 **Goal**: Automate the world, one script at a time!  
 - ⚡ **Fun Fact**: I once wrote a Bash script to remind me to take breaks during late-night coding sessions!  
