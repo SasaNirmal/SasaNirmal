@@ -19,9 +19,8 @@
 ## **👨‍💻 About Me**
 I'm **Sasanka Nirmal**, a **software developer** and **Linux enthusiast** from [Your City, Sri Lanka], passionate about crafting efficient solutions and mastering the art of Bash scripting. I thrive on exploring the command line, automating workflows, and contributing to open-source projects. My mission is to build tools that make life easier and inspire the global tech community.
 
-- 📍 **Location**: [Wellawaya, Sri Lanka]  
-- 📧 **Email**: [sasanpathirage@gmail.com]  
-- 💻 **Portfolio/Blog**: [Your Portfolio or Blog Link]  
+- 📍 **Location**: Wellawaya, Sri Lanka  
+- 📧 **Email**: sasanpathirage@gmail.com  
 - 🎯 **Goal**: Automate the world, one script at a time!  
 - ⚡ **Fun Fact**: I once wrote a Bash script to remind me to take breaks during late-night coding sessions!  
 
