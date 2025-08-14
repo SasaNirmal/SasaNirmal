@@ -31,6 +31,21 @@
             position: relative;
         }
         
+        .profile-avatar {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 3px solid #00FF99;
+            margin: 0 auto 30px;
+            display: block;
+            box-shadow: 0 0 30px rgba(0, 255, 153, 0.3);
+            transition: transform 0.3s ease;
+        }
+        
+        .profile-avatar:hover {
+            transform: scale(1.1);
+        }
+        
         .typing-animation {
             font-size: 2.5rem;
             font-weight: bold;
@@ -98,108 +113,7 @@
             transform: translateX(-50%);
         }
         
-        .about-grid {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 30px;
-            margin-top: 20px;
-        }
-        
-        .about-info {
-            color: #ccc;
-        }
-        
-        .about-info p {
-            margin-bottom: 15px;
-        }
-        
-        .skills-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 20px;
-            margin-top: 20px;
-        }
-        
-        .skill-category {
-            background: rgba(0, 255, 153, 0.1);
-            padding: 20px;
-            border-radius: 10px;
-            border: 1px solid rgba(0, 255, 153, 0.3);
-        }
-        
-        .skill-category h3 {
-            color: #00FF99;
-            margin-bottom: 15px;
-        }
-        
-        .skill-tags {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 8px;
-        }
-        
-        .skill-tag {
-            background: rgba(0, 255, 153, 0.2);
-            padding: 5px 12px;
-            border-radius: 15px;
-            font-size: 0.9rem;
-            color: #fff;
-            cursor: pointer;
-            transition: all 0.3s ease;
-        }
-        
-        .skill-tag:hover {
-            background: #00FF99;
-            color: #0f0f23;
-        }
-        
-        .projects-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-            gap: 25px;
-            margin-top: 20px;
-        }
-        
-        .project-card {
-            background: rgba(0, 255, 153, 0.05);
-            border: 1px solid rgba(0, 255, 153, 0.3);
-            border-radius: 15px;
-            padding: 25px;
-            transition: all 0.3s ease;
-            cursor: pointer;
-        }
-        
-        .project-card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 10px 30px rgba(0, 255, 153, 0.2);
-        }
-        
-        .project-title {
-            color: #00FF99;
-            font-size: 1.3rem;
-            margin-bottom: 10px;
-        }
-        
-        .project-description {
-            color: #ccc;
-            margin-bottom: 15px;
-        }
-        
-        .project-tech {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 8px;
-            margin-bottom: 15px;
-        }
-        
-        .tech-badge {
-            background: rgba(0, 255, 153, 0.2);
-            padding: 3px 8px;
-            border-radius: 10px;
-            font-size: 0.8rem;
-        }
-        
-        .stats-container {
+        .github-stats {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
             gap: 20px;
@@ -213,6 +127,7 @@
             padding: 20px;
             text-align: center;
             transition: all 0.3s ease;
+            cursor: pointer;
         }
         
         .stat-card:hover {
@@ -224,6 +139,64 @@
             font-weight: bold;
             color: #00FF99;
             margin-bottom: 5px;
+        }
+        
+        .repositories-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 25px;
+            margin-top: 20px;
+        }
+        
+        .repo-card {
+            background: rgba(0, 255, 153, 0.05);
+            border: 1px solid rgba(0, 255, 153, 0.3);
+            border-radius: 15px;
+            padding: 25px;
+            transition: all 0.3s ease;
+            cursor: pointer;
+            position: relative;
+        }
+        
+        .repo-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(0, 255, 153, 0.2);
+        }
+        
+        .repo-title {
+            color: #00FF99;
+            font-size: 1.3rem;
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        .repo-description {
+            color: #ccc;
+            margin-bottom: 15px;
+            min-height: 40px;
+        }
+        
+        .repo-stats {
+            display: flex;
+            gap: 15px;
+            align-items: center;
+            font-size: 0.9rem;
+        }
+        
+        .repo-stat {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            color: #999;
+        }
+        
+        .language-dot {
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            display: inline-block;
         }
         
         .terminal {
@@ -271,6 +244,27 @@
             margin-bottom: 10px;
         }
         
+        .loading {
+            text-align: center;
+            padding: 40px;
+            color: #00FF99;
+        }
+        
+        .spinner {
+            border: 4px solid rgba(0, 255, 153, 0.1);
+            border-left: 4px solid #00FF99;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            animation: spin 1s linear infinite;
+            margin: 0 auto 20px;
+        }
+        
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+        
         .contact-links {
             display: flex;
             justify-content: center;
@@ -298,53 +292,38 @@
             transform: translateY(-3px);
         }
         
-        .interactive-element {
-            cursor: pointer;
+        .skills-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin-top: 20px;
+        }
+        
+        .skill-item {
+            background: rgba(0, 255, 153, 0.1);
+            padding: 15px;
+            border-radius: 10px;
+            text-align: center;
             transition: all 0.3s ease;
-        }
-        
-        .interactive-element:hover {
-            color: #fff;
-        }
-        
-        .modal {
-            display: none;
-            position: fixed;
-            z-index: 1000;
-            left: 0;
-            top: 0;
-            width: 100%;
-            height: 100%;
-            background: rgba(0, 0, 0, 0.8);
-        }
-        
-        .modal-content {
-            background: linear-gradient(135deg, #1a1a2e, #16213e);
-            margin: 15% auto;
-            padding: 30px;
-            border-radius: 15px;
-            width: 80%;
-            max-width: 600px;
-            border: 1px solid #00FF99;
-        }
-        
-        .close {
-            color: #aaa;
-            float: right;
-            font-size: 28px;
-            font-weight: bold;
             cursor: pointer;
         }
         
-        .close:hover {
-            color: #00FF99;
+        .skill-item:hover {
+            background: rgba(0, 255, 153, 0.2);
+            transform: translateY(-2px);
+        }
+        
+        .error-message {
+            background: rgba(255, 0, 0, 0.1);
+            border: 1px solid rgba(255, 0, 0, 0.3);
+            color: #ff6b6b;
+            padding: 15px;
+            border-radius: 10px;
+            margin: 20px 0;
+            text-align: center;
         }
         
         @media (max-width: 768px) {
-            .about-grid {
-                grid-template-columns: 1fr;
-            }
-            
             .typing-animation {
                 font-size: 1.8rem;
             }
@@ -352,22 +331,55 @@
             .badge-container {
                 gap: 10px;
             }
+            
+            .github-stats {
+                grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            }
         }
         
-        .progress-bar {
-            width: 100%;
-            height: 20px;
-            background: rgba(255, 255, 255, 0.1);
+        .contribution-graph {
+            background: rgba(0, 255, 153, 0.05);
+            border: 1px solid rgba(0, 255, 153, 0.2);
             border-radius: 10px;
-            overflow: hidden;
-            margin: 10px 0;
+            padding: 20px;
+            margin: 20px 0;
+            text-align: center;
         }
         
-        .progress-fill {
-            height: 100%;
-            background: linear-gradient(90deg, #00FF99, #00cc7a);
+        .language-stats {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            gap: 15px;
+            margin-top: 20px;
+        }
+        
+        .language-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 5px;
+        }
+        
+        .recent-activity {
+            max-height: 400px;
+            overflow-y: auto;
+            background: rgba(0, 255, 153, 0.05);
             border-radius: 10px;
-            transition: width 2s ease;
+            padding: 20px;
+            margin-top: 20px;
+        }
+        
+        .activity-item {
+            padding: 10px;
+            border-left: 2px solid #00FF99;
+            margin-bottom: 15px;
+            padding-left: 15px;
+        }
+        
+        .activity-time {
+            color: #666;
+            font-size: 0.8rem;
         }
     </style>
 </head>
@@ -375,25 +387,32 @@
     <div class="container">
         <!-- Header Section -->
         <header class="header">
+            <img id="profileAvatar" class="profile-avatar" src="" alt="Sasanka Nirmal" style="display: none;">
             <div class="typing-animation" id="typingText">Hello World! I'm Sasanka Nirmal!</div>
             <div class="badge-container">
-                <span class="badge interactive-element" onclick="showTerminal()">🐧 Linux Expert</span>
-                <span class="badge interactive-element" onclick="showSkills()">💻 Developer</span>
-                <span class="badge interactive-element" onclick="showStats()">📊 GitHub Stats</span>
-                <span class="badge interactive-element" onclick="showProjects()">🚀 Projects</span>
+                <span class="badge" onclick="scrollToSection('about')">👨‍💻 About Me</span>
+                <span class="badge" onclick="scrollToSection('stats')">📊 GitHub Stats</span>
+                <span class="badge" onclick="scrollToSection('repositories')">🚀 Repositories</span>
+                <span class="badge" onclick="scrollToSection('skills')">🛠️ Skills</span>
+                <span class="badge" onclick="scrollToSection('contact')">🤝 Contact</span>
             </div>
         </header>
 
         <!-- About Section -->
-        <section class="section">
+        <section class="section" id="about">
             <h2 class="section-title">👨‍💻 About Me</h2>
-            <div class="about-grid">
-                <div class="about-info">
-                    <p>I'm <strong>Sasanka Nirmal</strong>, a passionate software developer and Linux enthusiast from Wellawaya, Sri Lanka. I thrive on exploring the command line, automating workflows, and contributing to open-source projects.</p>
-                    <p><strong>📍 Location:</strong> Wellawaya, Sri Lanka</p>
-                    <p><strong>📧 Email:</strong> sasanpathirage@gmail.com</p>
-                    <p><strong>🎯 Goal:</strong> Automate the world, one script at a time!</p>
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 30px; align-items: start;">
+                <div style="color: #ccc;">
+                    <p style="margin-bottom: 15px;">I'm <strong>Sasanka Nirmal</strong>, a passionate software developer and Linux enthusiast from Wellawaya, Sri Lanka. I thrive on exploring the command line, automating workflows, and contributing to open-source projects.</p>
+                    
+                    <div style="margin: 20px 0;">
+                        <p><strong>📍 Location:</strong> Wellawaya, Sri Lanka</p>
+                        <p><strong>📧 Email:</strong> sasanpathirage@gmail.com</p>
+                        <p><strong>🎯 Goal:</strong> Automate the world, one script at a time!</p>
+                        <p><strong>⚡ Fun Fact:</strong> I once wrote a Bash script to remind me to take breaks during late-night coding sessions!</p>
+                    </div>
                 </div>
+                
                 <div class="terminal">
                     <div class="terminal-header">
                         <div class="terminal-buttons">
@@ -410,168 +429,126 @@
                         <div class="output">Building tools that make life easier!</div>
                         <div><span class="command">$ echo $PASSION</span></div>
                         <div class="output">Linux + Bash + Open Source = ❤️</div>
+                        <div><span class="command">$ git status</span></div>
+                        <div class="output">On branch main - Ready to collaborate!</div>
                     </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Skills Section -->
-        <section class="section" id="skillsSection">
-            <h2 class="section-title">🛠️ Skills & Tech Stack</h2>
-            <div class="skills-grid">
-                <div class="skill-category">
-                    <h3>Languages</h3>
-                    <div class="skill-tags">
-                        <span class="skill-tag">Python</span>
-                        <span class="skill-tag">Bash</span>
-                        <span class="skill-tag">JavaScript</span>
-                        <span class="skill-tag">Java</span>
-                    </div>
-                </div>
-                <div class="skill-category">
-                    <h3>Frameworks/Tools</h3>
-                    <div class="skill-tags">
-                        <span class="skill-tag">Node.js</span>
-                        <span class="skill-tag">Django</span>
-                        <span class="skill-tag">Docker</span>
-                    </div>
-                </div>
-                <div class="skill-category">
-                    <h3>DevOps</h3>
-                    <div class="skill-tags">
-                        <span class="skill-tag">Linux</span>
-                        <span class="skill-tag">Git</span>
-                        <span class="skill-tag">Kubernetes</span>
-                    </div>
-                </div>
-                <div class="skill-category">
-                    <h3>Databases</h3>
-                    <div class="skill-tags">
-                        <span class="skill-tag">MongoDB</span>
-                        <span class="skill-tag">MySQL</span>
-                        <span class="skill-tag">Supabase</span>
-                    </div>
-                </div>
-            </div>
-            
-            <!-- Progress Bars -->
-            <div style="margin-top: 30px;">
-                <h3 style="color: #00FF99; margin-bottom: 20px;">Current Learning Progress</h3>
-                <div>
-                    <label>Bash Scripting</label>
-                    <div class="progress-bar">
-                        <div class="progress-fill" id="bashProgress" style="width: 0%"></div>
-                    </div>
-                </div>
-                <div>
-                    <label>Linux SysAdmin</label>
-                    <div class="progress-bar">
-                        <div class="progress-fill" id="linuxProgress" style="width: 0%"></div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Projects Section -->
-        <section class="section" id="projectsSection">
-            <h2 class="section-title">🌟 Featured Projects</h2>
-            <div class="projects-grid">
-                <div class="project-card interactive-element" onclick="openProject('library')">
-                    <h3 class="project-title">📚 LibrarySystem</h3>
-                    <p class="project-description">A robust library management system for books, users, and transactions with advanced features.</p>
-                    <div class="project-tech">
-                        <span class="tech-badge">Python</span>
-                        <span class="tech-badge">Django</span>
-                        <span class="tech-badge">MySQL</span>
-                    </div>
-                    <p style="color: #00FF99;">⭐ Click to explore features</p>
-                </div>
-                
-                <div class="project-card interactive-element" onclick="openProject('bash')">
-                    <h3 class="project-title">⚡ Bash Automation Toolkit</h3>
-                    <p class="project-description">A collection of powerful Bash scripts for automating file management and system tasks.</p>
-                    <div class="project-tech">
-                        <span class="tech-badge">Bash</span>
-                        <span class="tech-badge">Linux</span>
-                        <span class="tech-badge">Shell</span>
-                    </div>
-                    <p style="color: #00FF99;">⭐ View automation scripts</p>
-                </div>
-                
-                <div class="project-card interactive-element" onclick="openProject('web')">
-                    <h3 class="project-title">🌐 Task Tracker Pro</h3>
-                    <p class="project-description">A modern task-tracking web app with real-time updates and collaborative features.</p>
-                    <div class="project-tech">
-                        <span class="tech-badge">React</span>
-                        <span class="tech-badge">Node.js</span>
-                        <span class="tech-badge">MongoDB</span>
-                    </div>
-                    <p style="color: #00FF99;">⭐ Live demo available</p>
                 </div>
             </div>
         </section>
 
         <!-- GitHub Stats Section -->
-        <section class="section" id="statsSection">
-            <h2 class="section-title">📊 GitHub Stats</h2>
-            <div class="stats-container">
-                <div class="stat-card interactive-element" onclick="animateStats()">
-                    <div class="stat-number" id="repoCount">25+</div>
-                    <div>Public Repositories</div>
+        <section class="section" id="stats">
+            <h2 class="section-title">📊 GitHub Statistics</h2>
+            <div class="loading" id="statsLoading">
+                <div class="spinner"></div>
+                <p>Loading GitHub statistics...</p>
+            </div>
+            <div class="github-stats" id="githubStats" style="display: none;">
+                <!-- Stats will be populated by JavaScript -->
+            </div>
+            <div class="contribution-graph">
+                <h3 style="color: #00FF99; margin-bottom: 15px;">📈 Contribution Activity</h3>
+                <p style="color: #ccc;">Consistent contributions across repositories and open source projects</p>
+            </div>
+        </section>
+
+        <!-- Repositories Section -->
+        <section class="section" id="repositories">
+            <h2 class="section-title">🚀 My Repositories</h2>
+            <div class="loading" id="reposLoading">
+                <div class="spinner"></div>
+                <p>Loading repositories...</p>
+            </div>
+            <div class="repositories-grid" id="repositoriesGrid" style="display: none;">
+                <!-- Repositories will be populated by JavaScript -->
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section class="section" id="skills">
+            <h2 class="section-title">🛠️ Skills & Technologies</h2>
+            <div class="skills-container">
+                <div class="skill-item">
+                    <h3>Languages</h3>
+                    <div style="margin-top: 10px; display: flex; flex-wrap: wrap; gap: 5px; justify-content: center;">
+                        <span style="background: rgba(0,255,153,0.2); padding: 3px 8px; border-radius: 10px; font-size: 0.8rem;">Python</span>
+                        <span style="background: rgba(0,255,153,0.2); padding: 3px 8px; border-radius: 10px; font-size: 0.8rem;">Bash</span>
+                        <span style="background: rgba(0,255,153,0.2); padding: 3px 8px; border-radius: 10px; font-size: 0.8rem;">JavaScript</span>
+                        <span style="background: rgba(0,255,153,0.2); padding: 3px 8px; border-radius: 10px; font-size: 0.8rem;">Java</span>
+                    </div>
                 </div>
-                <div class="stat-card interactive-element" onclick="animateStats()">
-                    <div class="stat-number" id="starCount">150+</div>
-                    <div>Stars Earned</div>
+                <div class="skill-item">
+                    <h3>Frameworks</h3>
+                    <div style="margin-top: 10px; display: flex; flex-wrap: wrap; gap: 5px; justify-content: center;">
+                        <span style="background: rgba(0,255,153,0.2); padding: 3px 8px; border-radius: 10px; font-size: 0.8rem;">Django</span>
+                        <span style="background: rgba(0,255,153,0.2); padding: 3px 8px; border-radius: 10px; font-size: 0.8rem;">Node.js</span>
+                        <span style="background: rgba(0,255,153,0.2); padding: 3px 8px; border-radius: 10px; font-size: 0.8rem;">React</span>
+                    </div>
                 </div>
-                <div class="stat-card interactive-element" onclick="animateStats()">
-                    <div class="stat-number" id="commitCount">500+</div>
-                    <div>Commits This Year</div>
+                <div class="skill-item">
+                    <h3>DevOps & Tools</h3>
+                    <div style="margin-top: 10px; display: flex; flex-wrap: wrap; gap: 5px; justify-content: center;">
+                        <span style="background: rgba(0,255,153,0.2); padding: 3px 8px; border-radius: 10px; font-size: 0.8rem;">Linux</span>
+                        <span style="background: rgba(0,255,153,0.2); padding: 3px 8px; border-radius: 10px; font-size: 0.8rem;">Docker</span>
+                        <span style="background: rgba(0,255,153,0.2); padding: 3px 8px; border-radius: 10px; font-size: 0.8rem;">Git</span>
+                        <span style="background: rgba(0,255,153,0.2); padding: 3px 8px; border-radius: 10px; font-size: 0.8rem;">Kubernetes</span>
+                    </div>
                 </div>
-                <div class="stat-card interactive-element" onclick="animateStats()">
-                    <div class="stat-number" id="followerCount">100+</div>
-                    <div>Followers</div>
+                <div class="skill-item">
+                    <h3>Databases</h3>
+                    <div style="margin-top: 10px; display: flex; flex-wrap: wrap; gap: 5px; justify-content: center;">
+                        <span style="background: rgba(0,255,153,0.2); padding: 3px 8px; border-radius: 10px; font-size: 0.8rem;">MongoDB</span>
+                        <span style="background: rgba(0,255,153,0.2); padding: 3px 8px; border-radius: 10px; font-size: 0.8rem;">MySQL</span>
+                        <span style="background: rgba(0,255,153,0.2); padding: 3px 8px; border-radius: 10px; font-size: 0.8rem;">Supabase</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Language Statistics -->
+            <div id="languageStats" style="display: none;">
+                <h3 style="color: #00FF99; margin: 30px 0 15px 0; text-align: center;">📊 Most Used Languages</h3>
+                <div class="language-stats" id="languageStatsContent">
+                    <!-- Will be populated by JavaScript -->
                 </div>
             </div>
         </section>
 
         <!-- Contact Section -->
-        <section class="section">
+        <section class="section" id="contact">
             <h2 class="section-title">🤝 Let's Connect!</h2>
             <div class="contact-links">
                 <a href="mailto:sasanpathirage@gmail.com" class="contact-link">
                     <span>📧</span> Email
                 </a>
-                <a href="https://www.linkedin.com/in/sasanirmal" class="contact-link">
+                <a href="https://www.linkedin.com/in/sasanirmal" class="contact-link" target="_blank">
                     <span>💼</span> LinkedIn
                 </a>
-                <a href="https://x.com/SasankaXbob" class="contact-link">
+                <a href="https://x.com/SasankaXbob" class="contact-link" target="_blank">
                     <span>🐦</span> X (Twitter)
                 </a>
-                <a href="https://github.com/SasaNirmal" class="contact-link">
+                <a href="https://github.com/SasaNirmal" class="contact-link" target="_blank">
                     <span>🐱</span> GitHub
                 </a>
             </div>
-            <p style="text-align: center; margin-top: 20px; color: #ccc;">
-                🌟 Let's build something awesome together! Fork my repos, submit a PR, or drop me a message!
+            <p style="text-align: center; margin-top: 30px; color: #ccc;">
+                🌟 Let's build something awesome together! Fork my repos, submit a PR, or drop me a message!<br>
+                <small style="color: #666;">Thanks for visiting! Let's conquer the terminal together! 🐧🚀</small>
             </p>
         </section>
     </div>
 
-    <!-- Modals -->
-    <div id="projectModal" class="modal">
-        <div class="modal-content">
-            <span class="close">&times;</span>
-            <div id="modalContent"></div>
-        </div>
-    </div>
-
     <script>
+        // GitHub API configuration
+        const GITHUB_USERNAME = 'SasaNirmal';
+        const GITHUB_API_BASE = 'https://api.github.com';
+
         // Typing animation
         const texts = [
             "Hello World! I'm Sasanka Nirmal!",
-            "Passionate Developer & Linux Enthusiast",
-            "Bash Scripting Ninja 🐧",
-            "Open Source Contributor 🚀"
+            "Passionate Developer & Linux Enthusiast 🐧",
+            "Bash Scripting Ninja 💻",
+            "Open Source Contributor 🚀",
+            "Automation Enthusiast ⚡"
         ];
         let textIndex = 0;
         let charIndex = 0;
@@ -599,165 +576,346 @@
             setTimeout(typeWriter, isDeleting ? 50 : 100);
         }
 
-        // Initialize typing animation
-        typeWriter();
-
-        // Progress bar animations
-        function animateProgressBars() {
-            document.getElementById('bashProgress').style.width = '75%';
-            document.getElementById('linuxProgress').style.width = '60%';
-        }
-
-        // Animate stats
-        function animateStats() {
-            const stats = [
-                { id: 'repoCount', target: 25 },
-                { id: 'starCount', target: 150 },
-                { id: 'commitCount', target: 500 },
-                { id: 'followerCount', target: 100 }
-            ];
-            
-            stats.forEach(stat => {
-                let current = 0;
-                const increment = stat.target / 50;
-                const timer = setInterval(() => {
-                    current += increment;
-                    if (current >= stat.target) {
-                        current = stat.target;
-                        clearInterval(timer);
-                    }
-                    document.getElementById(stat.id).textContent = Math.floor(current) + '+';
-                }, 30);
-            });
-        }
-
-        // Project modal functions
-        function openProject(project) {
-            const modal = document.getElementById('projectModal');
-            const content = document.getElementById('modalContent');
-            
-            const projectData = {
-                library: {
-                    title: '📚 LibrarySystem',
-                    description: 'A comprehensive library management system built with Django and Python.',
-                    features: [
-                        'Book inventory management',
-                        'User registration and authentication',
-                        'Transaction tracking',
-                        'Advanced search and filtering',
-                        'Admin dashboard'
-                    ],
-                    tech: ['Python', 'Django', 'MySQL', 'Bootstrap'],
-                    github: 'https://github.com/SasaNirmal/LibrarySystem'
-                },
-                bash: {
-                    title: '⚡ Bash Automation Toolkit',
-                    description: 'Collection of powerful Bash scripts for system automation.',
-                    features: [
-                        'File backup automation',
-                        'Log analysis tools',
-                        'System monitoring scripts',
-                        'Network diagnostics',
-                        'Deployment helpers'
-                    ],
-                    tech: ['Bash', 'Linux', 'Shell Scripting', 'Cron'],
-                    github: '#'
-                },
-                web: {
-                    title: '🌐 Task Tracker Pro',
-                    description: 'Modern task management application with real-time collaboration.',
-                    features: [
-                        'Real-time task updates',
-                        'Team collaboration',
-                        'Project management',
-                        'Time tracking',
-                        'Progress analytics'
-                    ],
-                    tech: ['React', 'Node.js', 'MongoDB', 'Socket.io'],
-                    github: '#'
-                }
-            };
-            
-            const proj = projectData[project];
-            content.innerHTML = `
-                <h2 style="color: #00FF99; margin-bottom: 20px;">${proj.title}</h2>
-                <p style="color: #ccc; margin-bottom: 20px;">${proj.description}</p>
+        // Fetch GitHub user data
+        async function fetchGitHubUser() {
+            try {
+                const response = await fetch(`${GITHUB_API_BASE}/users/${GITHUB_USERNAME}`);
+                if (!response.ok) throw new Error('Failed to fetch user data');
+                const user = await response.json();
                 
-                <h3 style="color: #00FF99; margin-bottom: 10px;">✨ Features:</h3>
-                <ul style="color: #ccc; margin-bottom: 20px;">
-                    ${proj.features.map(feature => `<li style="margin-bottom: 5px;">• ${feature}</li>`).join('')}
-                </ul>
+                // Update profile avatar
+                const avatarImg = document.getElementById('profileAvatar');
+                avatarImg.src = user.avatar_url;
+                avatarImg.style.display = 'block';
                 
-                <h3 style="color: #00FF99; margin-bottom: 10px;">🛠️ Technologies:</h3>
-                <div style="display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 20px;">
-                    ${proj.tech.map(tech => `<span class="tech-badge">${tech}</span>`).join('')}
-                </div>
-                
-                <a href="${proj.github}" target="_blank" class="contact-link" style="display: inline-flex;">
-                    <span>🐱</span> View on GitHub
-                </a>
-            `;
-            
-            modal.style.display = 'block';
-        }
-
-        // Navigation functions
-        function showTerminal() {
-            document.querySelector('.terminal').scrollIntoView({ behavior: 'smooth' });
-        }
-
-        function showSkills() {
-            document.getElementById('skillsSection').scrollIntoView({ behavior: 'smooth' });
-            setTimeout(animateProgressBars, 500);
-        }
-
-        function showStats() {
-            document.getElementById('statsSection').scrollIntoView({ behavior: 'smooth' });
-            setTimeout(animateStats, 500);
-        }
-
-        function showProjects() {
-            document.getElementById('projectsSection').scrollIntoView({ behavior: 'smooth' });
-        }
-
-        // Modal close functionality
-        document.querySelector('.close').onclick = function() {
-            document.getElementById('projectModal').style.display = 'none';
-        }
-
-        window.onclick = function(event) {
-            const modal = document.getElementById('projectModal');
-            if (event.target === modal) {
-                modal.style.display = 'none';
+                return user;
+            } catch (error) {
+                console.error('Error fetching GitHub user:', error);
+                showError('stats', 'Failed to load GitHub profile data');
+                return null;
             }
         }
 
-        // Initialize animations on scroll
-        window.addEventListener('scroll', function() {
-            const sections = document.querySelectorAll('.section');
-            sections.forEach(section => {
-                const rect = section.getBoundingClientRect();
-                if (rect.top < window.innerHeight && rect.bottom > 0) {
-                    section.style.opacity = '1';
-                    section.style.transform = 'translateY(0)';
+        // Fetch GitHub repositories
+        async function fetchGitHubRepos() {
+            try {
+                const response = await fetch(`${GITHUB_API_BASE}/users/${GITHUB_USERNAME}/repos?sort=updated&per_page=12`);
+                if (!response.ok) throw new Error('Failed to fetch repositories');
+                const repos = await response.json();
+                return repos;
+            } catch (error) {
+                console.error('Error fetching repositories:', error);
+                showError('repositories', 'Failed to load repositories');
+                return [];
+            }
+        }
+
+        // Language colors for GitHub
+        const languageColors = {
+            'JavaScript': '#f1e05a',
+            'Python': '#3572A5',
+            'Java': '#b07219',
+            'TypeScript': '#2b7489',
+            'HTML': '#e34c26',
+            'CSS': '#563d7c',
+            'Shell': '#89e051',
+            'C++': '#f34b7d',
+            'C': '#555555',
+            'Go': '#00ADD8',
+            'Rust': '#dea584',
+            'PHP': '#4F5D95',
+            'Ruby': '#701516',
+            'Swift': '#ffac45',
+            'Kotlin': '#F18E33',
+            'Dart': '#00B4AB'
+        };
+
+        // Display GitHub statistics
+        async function displayGitHubStats(user) {
+            const statsContainer = document.getElementById('githubStats');
+            const statsLoading = document.getElementById('statsLoading');
+            
+            if (!user) {
+                showError('stats', 'Unable to load GitHub statistics');
+                return;
+            }
+
+            statsContainer.innerHTML = `
+                <div class="stat-card" onclick="animateStatCard(this)">
+                    <div class="stat-number">${user.following}</div>
+                    <div>Following</div>
+                </div>
+                <div class="stat-card" onclick="animateStatCard(this)">
+                    <div class="stat-number">${new Date(user.created_at).getFullYear()}</div>
+                    <div>Joined GitHub</div>
+                </div>
+            `;
+            
+            statsLoading.style.display = 'none';
+            statsContainer.style.display = 'grid';
+        }
+
+        // Display repositories
+        async function displayRepositories(repos) {
+            const reposContainer = document.getElementById('repositoriesGrid');
+            const reposLoading = document.getElementById('reposLoading');
+            
+            if (!repos || repos.length === 0) {
+                showError('repositories', 'No repositories found');
+                return;
+            }
+
+            const repoCards = repos.map(repo => {
+                const languageColor = languageColors[repo.language] || '#666';
+                return `
+                    <div class="repo-card" onclick="openRepository('${repo.html_url}')">
+                        <div class="repo-title">
+                            <span>📁</span>
+                            ${repo.name}
+                        </div>
+                        <div class="repo-description">
+                            ${repo.description || 'No description available'}
+                        </div>
+                        <div class="repo-stats">
+                            ${repo.language ? `
+                                <div class="repo-stat">
+                                    <span class="language-dot" style="background-color: ${languageColor}"></span>
+                                    ${repo.language}
+                                </div>
+                            ` : ''}
+                            <div class="repo-stat">
+                                <span>⭐</span>
+                                ${repo.stargazers_count}
+                            </div>
+                            <div class="repo-stat">
+                                <span>🍴</span>
+                                ${repo.forks_count}
+                            </div>
+                            <div class="repo-stat">
+                                <span>📅</span>
+                                ${new Date(repo.updated_at).toLocaleDateString()}
+                            </div>
+                        </div>
+                    </div>
+                `;
+            }).join('');
+
+            reposContainer.innerHTML = repoCards;
+            reposLoading.style.display = 'none';
+            reposContainer.style.display = 'grid';
+            
+            // Show language statistics
+            displayLanguageStats(repos);
+        }
+
+        // Display language statistics
+        function displayLanguageStats(repos) {
+            const languageStats = {};
+            repos.forEach(repo => {
+                if (repo.language) {
+                    languageStats[repo.language] = (languageStats[repo.language] || 0) + 1;
                 }
             });
-        });
 
-        // Add some interactive effects
-        document.querySelectorAll('.skill-tag').forEach(tag => {
-            tag.addEventListener('click', function() {
-                this.style.transform = 'scale(1.2)';
-                setTimeout(() => {
-                    this.style.transform = 'scale(1)';
-                }, 200);
+            const sortedLanguages = Object.entries(languageStats)
+                .sort(([,a], [,b]) => b - a)
+                .slice(0, 6);
+
+            if (sortedLanguages.length > 0) {
+                const languageStatsContainer = document.getElementById('languageStatsContent');
+                const languageElements = sortedLanguages.map(([language, count]) => {
+                    const color = languageColors[language] || '#666';
+                    return `
+                        <div class="language-item">
+                            <div style="display: flex; align-items: center; gap: 5px;">
+                                <span class="language-dot" style="background-color: ${color}"></span>
+                                <span>${language}</span>
+                            </div>
+                            <span style="color: #999; font-size: 0.9rem;">${count} repos</span>
+                        </div>
+                    `;
+                }).join('');
+
+                languageStatsContainer.innerHTML = languageElements;
+                document.getElementById('languageStats').style.display = 'block';
+            }
+        }
+
+        // Utility functions
+        function showError(sectionId, message) {
+            const loadingElement = document.getElementById(`${sectionId}Loading`);
+            if (loadingElement) {
+                loadingElement.innerHTML = `
+                    <div class="error-message">
+                        <p>⚠️ ${message}</p>
+                        <button onclick="location.reload()" style="margin-top: 10px; padding: 8px 16px; background: #00FF99; color: #000; border: none; border-radius: 5px; cursor: pointer;">
+                            Retry
+                        </button>
+                    </div>
+                `;
+            }
+        }
+
+        function animateStatCard(card) {
+            card.style.transform = 'scale(1.1) rotateY(10deg)';
+            setTimeout(() => {
+                card.style.transform = 'scale(1.05)';
+            }, 200);
+        }
+
+        function openRepository(url) {
+            window.open(url, '_blank');
+        }
+
+        function scrollToSection(sectionId) {
+            document.getElementById(sectionId).scrollIntoView({ 
+                behavior: 'smooth',
+                block: 'start'
+            });
+        }
+
+        // Initialize the profile
+        async function initializeProfile() {
+            // Start typing animation
+            typeWriter();
+
+            // Load GitHub data
+            const user = await fetchGitHubUser();
+            const repos = await fetchGitHubRepos();
+
+            // Display the data
+            await displayGitHubStats(user);
+            await displayRepositories(repos);
+
+            // Add scroll animations
+            const observerOptions = {
+                threshold: 0.1,
+                rootMargin: '0px 0px -50px 0px'
+            };
+
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.style.opacity = '1';
+                        entry.target.style.transform = 'translateY(0)';
+                    }
+                });
+            }, observerOptions);
+
+            // Observe all sections
+            document.querySelectorAll('.section').forEach(section => {
+                section.style.opacity = '0';
+                section.style.transform = 'translateY(30px)';
+                section.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+                observer.observe(section);
+            });
+        }
+
+        // Add interactive effects
+        document.addEventListener('DOMContentLoaded', function() {
+            // Initialize profile
+            initializeProfile();
+
+            // Add skill item interactions
+            document.querySelectorAll('.skill-item').forEach(item => {
+                item.addEventListener('mouseenter', function() {
+                    this.style.transform = 'translateY(-5px) scale(1.02)';
+                });
+                
+                item.addEventListener('mouseleave', function() {
+                    this.style.transform = 'translateY(0) scale(1)';
+                });
+            });
+
+            // Add terminal command interactions
+            const terminalContent = document.querySelector('.terminal-content');
+            if (terminalContent) {
+                terminalContent.addEventListener('click', function() {
+                    // Add a blinking cursor effect
+                    const cursor = document.createElement('span');
+                    cursor.textContent = '|';
+                    cursor.style.animation = 'blink 1s infinite';
+                    cursor.style.color = '#00FF99';
+                    
+                    const style = document.createElement('style');
+                    style.textContent = `
+                        @keyframes blink {
+                            0%, 50% { opacity: 1; }
+                            51%, 100% { opacity: 0; }
+                        }
+                    `;
+                    document.head.appendChild(style);
+                    
+                    this.appendChild(cursor);
+                    setTimeout(() => cursor.remove(), 3000);
+                });
+            }
+
+            // Add badge hover effects
+            document.querySelectorAll('.badge').forEach(badge => {
+                badge.addEventListener('mouseenter', function() {
+                    this.style.transform = 'translateY(-3px) scale(1.05)';
+                });
+                
+                badge.addEventListener('mouseleave', function() {
+                    this.style.transform = 'translateY(0) scale(1)';
+                });
             });
         });
 
-        // Initialize progress bars after page load
-        window.addEventListener('load', function() {
-            setTimeout(animateProgressBars, 1000);
+        // Add keyboard navigation
+        document.addEventListener('keydown', function(e) {
+            const sections = ['about', 'stats', 'repositories', 'skills', 'contact'];
+            let currentSection = 0;
+            
+            // Find current section in view
+            for (let i = 0; i < sections.length; i++) {
+                const section = document.getElementById(sections[i]);
+                const rect = section.getBoundingClientRect();
+                if (rect.top <= 100 && rect.bottom >= 100) {
+                    currentSection = i;
+                    break;
+                }
+            }
+            
+            // Navigate with arrow keys
+            if (e.key === 'ArrowDown' && currentSection < sections.length - 1) {
+                scrollToSection(sections[currentSection + 1]);
+                e.preventDefault();
+            } else if (e.key === 'ArrowUp' && currentSection > 0) {
+                scrollToSection(sections[currentSection - 1]);
+                e.preventDefault();
+            }
         });
-    </script>
-</body>
-</html>
+
+        // Add a Easter egg for konami code
+        let konamiCode = [];
+        const konami = ['ArrowUp', 'ArrowUp', 'ArrowDown', 'ArrowDown', 'ArrowLeft', 'ArrowRight', 'ArrowLeft', 'ArrowRight', 'KeyB', 'KeyA'];
+        
+        document.addEventListener('keydown', function(e) {
+            konamiCode.push(e.code);
+            if (konamiCode.length > 10) konamiCode.shift();
+            
+            if (konamiCode.join(',') === konami.join(',')) {
+                // Easter egg: Matrix effect
+                document.body.style.background = 'linear-gradient(135deg, #000, #003300, #000)';
+                const matrix = document.createElement('div');
+                matrix.innerHTML = '🐧 LINUX MASTER MODE ACTIVATED 🐧';
+                matrix.style.cssText = `
+                    position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%);
+                    color: #00FF99; font-size: 2rem; z-index: 9999;
+                    text-shadow: 0 0 20px #00FF99; animation: pulse 2s infinite;
+                `;
+                document.body.appendChild(matrix);
+                setTimeout(() => matrix.remove(), 3000);
+                konamiCode = [];
+            }
+        });d(this)">
+                    <div class="stat-number">${user.public_repos}</div>
+                    <div>Public Repositories</div>
+                </div>
+                <div class="stat-card" onclick="animateStatCard(this)">
+                    <div class="stat-number">${user.followers}</div>
+                    <div>Followers</div>
+                </div>
+                <div class="stat-card" onclick="animateStatCar
